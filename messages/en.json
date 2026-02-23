@@ -1,0 +1,20 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from en!",
+	"login_title": "Admin Center",
+	"login_email": "E-mail",
+	"login_password": "Password",
+	"login_signin": "Sign in",
+	"login_placeholder_password": "Enter your password...",
+	"login_error": "Invalid login credentials.",
+	"users_title": "Users",
+	"users_new": "Create User",
+	"users_firstname": "First Name",
+	"users_lastname": "Last Name",
+	"users_role": "Role",
+	"users_create": "Create",
+	"users_created": "User created successfully!",
+	"users_create_error": "Failed to create user.",
+	"users_list": "User List",
+	"users_load_error": "Failed to load users."
+}

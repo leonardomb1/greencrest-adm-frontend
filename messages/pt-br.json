@@ -1,0 +1,20 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from pt-br!",
+	"login_title": "Central Administrativa",
+	"login_email": "E-mail",
+	"login_password": "Senha",
+	"login_signin": "Entrar",
+	"login_placeholder_password": "Insira sua senha...",
+	"login_error": "Credenciais invalidas.",
+	"users_title": "Usuários",
+	"users_new": "Criar Usuário",
+	"users_firstname": "Nome",
+	"users_lastname": "Sobrenome",
+	"users_role": "Cargo",
+	"users_create": "Criar",
+	"users_created": "Usuário criado com sucesso!",
+	"users_create_error": "Falha ao criar usuário.",
+	"users_list": "Lista de Usuários",
+	"users_load_error": "Falha ao carregar usuários."
+}
