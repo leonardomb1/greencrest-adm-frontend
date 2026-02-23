@@ -64,8 +64,8 @@
             <label class="label">
                 <span class="label-text">{m.users_role()}</span>
                 <select class="select" bind:value={role}>
-                    <option value="User">User</option>
-                    <option value="Admin">Admin</option>
+                    <option value="User">{m.users_type_user()}</option>
+                    <option value="Admin">{m.users_type_admin()}</option>
                 </select>
             </label>
             <button class="btn preset-filled-primary-500 w-full" type="submit">
@@ -78,7 +78,7 @@
         <h2 class="h3 mb-4">{m.users_list()}</h2>
 
         {#await getUsers()}
-            <p>Loading...</p>
+            <p>{m.users_loading_message()}</p>
         {:then users}
             <ul class="space-y-2">
                 {#each users.items as user}

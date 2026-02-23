@@ -35,7 +35,7 @@
                 <input class="input" type="password" placeholder={m.login_placeholder_password()} bind:value={password} required>
             </label>
             {#if error}
-                <p class="text-eror-500 text-sm">
+                <p class="text-error-500 text-sm">
                     {error}
                 </p>
             {/if}

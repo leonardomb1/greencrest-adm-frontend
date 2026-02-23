@@ -16,5 +16,8 @@
 	"users_created": "Usuário criado com sucesso!",
 	"users_create_error": "Falha ao criar usuário.",
 	"users_list": "Lista de Usuários",
-	"users_load_error": "Falha ao carregar usuários."
+	"users_load_error": "Falha ao carregar usuários.",
+	"users_loading_message": "Carregando...",
+	"users_type_admin": "Administrador",
+	"users_type_user": "Usuário"
 }

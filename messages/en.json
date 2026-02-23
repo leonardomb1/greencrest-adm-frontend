@@ -16,5 +16,8 @@
 	"users_created": "User created successfully!",
 	"users_create_error": "Failed to create user.",
 	"users_list": "User List",
-	"users_load_error": "Failed to load users."
+	"users_load_error": "Failed to load users.",
+	"users_loading_message": "Loading...",
+	"users_type_admin": "Admin",
+	"users_type_user": "User"
 }
